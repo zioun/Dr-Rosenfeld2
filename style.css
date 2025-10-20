@@ -85,8 +85,8 @@ body {
   align-items: center;
   padding: 10px 25px;
 }
-.header > img {
-  max-width: 230px;
+.header > h2 {
+  font-size: 40px;
 }
 
 /* Product-offer start */
