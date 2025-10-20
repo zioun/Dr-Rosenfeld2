@@ -468,20 +468,6 @@ body {
   color: var(--white);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .faq-title {
   font-size: 28px;
   text-align: center;
@@ -540,24 +526,6 @@ body {
   font-size: 16px;
   transition: all 0.3s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* special-offer start */
 .special-offer {
@@ -652,52 +620,59 @@ a {
   .product-offer-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .product-offer-img{
+  .product-offer-img {
     order: 1;
   }
-  .product-offer-content{
+  .product-offer-content {
     order: 2;
   }
-  .trust-us-wrapper{
+  .trust-us-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .result-wrapper{
+  .result-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .result-img{
+  .result-img {
     order: 1;
   }
-  .result-content{
+  .result-content {
     order: 2;
   }
-  .why-choose-wrapper{
+  .why-choose-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .product-details-wrapper{
+  .product-details-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .product-details-img{
+  .product-details-img {
     order: 1;
   }
-  .product-details-content{
+  .product-details-content {
     order: 2;
   }
-  .testimonials-wrapper{
+  .testimonials-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .pricing-wrapper{
+  .pricing-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .footer-top-wrapper{
+  .footer-top-wrapper {
     flex-direction: column;
     gap: 0px;
   }
-  .footer-left-item{
+  .footer-left-item {
     order: 1;
     margin-top: 20px;
   }
-  .footer-left-item img{
+  .footer-left-item img {
     width: 100%;
     align-items: end;
+  }
+  .trust-us-content > div:nth-of-type(1){
+    gap: 30px;
+  }
+  .key-ingredients-card{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
